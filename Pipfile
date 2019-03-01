@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+click = "*"
+ipython = "*"
+pylint = "*"
+python-dotenv = "*"
+prettyprinter = "*"
+pyone = "*"
+backcall = {editable = true,path = "."}
+mreschke-opennebula-snapshots = {editable = true,path = "."}
+
+[requires]
+python_version = "3.7"
